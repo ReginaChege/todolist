@@ -1,0 +1,71 @@
+ #todo-item{
+    background-color: aqua;
+} 
+body{
+  background-color: #4A7C70;
+}
+#in{
+    width: 40%;
+    height: 20%;
+}
+#but{
+  padding: 1%;
+  width: 40%;
+}
+#para1{
+  text-align: center;
+}
+#todo{
+  text-align: center;
+}
+#confirmdelete{
+  padding: 1%;
+  width: 100%;
+}
+p{
+  font-size: 140%;
+} 
+ #all{
+  text-align: center;
+} 
+
+ .dos{
+  margin-left: 40%;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #4A7C70;
+}
+h1 {
+  text-align: center;
+}
+#addTaskForm {
+  margin-bottom: 20px;
+}
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.task span {
+  flex-grow: 1;
+}
+.task button {
+  margin-left: 10px;
+}
+.task.completed span {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+#allTasks {
+  margin-top: 20px;
+}
+
+
